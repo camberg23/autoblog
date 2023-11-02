@@ -44,7 +44,7 @@ THE SPECIFIC CAREER TO WRITE ABOUT FOR THIS POST IS THE PROFESSION/CAREER OF {PR
   - For each of the Big Five traits (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism), describe how they might manifest in successful professionals in the field.
   - Provide examples and professional scenarios where these traits would be advantageous.
   - Link to the relevant Truity page for each trait like so: https://www.truity.com/blog/page/<lowercase_trait>-dimension-personality (if you list each trait, link at the initial listing of the trait, eg [Openness](https://www.truity.com/blog/page/openness-dimension-personality): ______).
-  - Also link to the Big Five assessment like so: Take our (Big Five)[https://www.truity.com/test/big-five-personality-test] personality test to see how these traits play out in your life.
+  - Also link to the Big Five assessment doing something like (doesn't have to be exact): You can take our (Big Five)[https://www.truity.com/test/big-five-personality-test] personality test to see how these traits play out in your life.
 
 #### TypeFinder types of {PROFESSION}s:
 [SPECIAL NOTE: we call MBTI/Myers-Briggs types 'TypeFinder' types! Use the same acronyms and theory [eg, INTP], but call them TypeFinder types, NOT MBTI or Myers-Briggs]
@@ -52,7 +52,7 @@ THE SPECIFIC CAREER TO WRITE ABOUT FOR THIS POST IS THE PROFESSION/CAREER OF {PR
   - Discuss how various TypeFinder types may find different aspects of the profession more suitable or challenging.
   - Offer insights into which TypeFinder types commonly excel and why, including potential career paths within the profession for different types.
   - Link to Truity’s TypeFinder type descriptions for deeper exploration, do this when you first bring up any type, EXAMPLE: (INTPs)[https://www.truity.com/blog/personality-type/intp] and (INTJs)[https://www.truity.com/blog/personality-type/intj] may be best suited.... 
-  - Also link to the TypeFinder assessment like so: Take our (TypeFinder)[https://www.truity.com/test/type-finder-personality-test-new] assessment to find out your unique type!
+  - Also link to the TypeFinder assessment doing something like (doesn't have to be exact): Take our (TypeFinder)[https://www.truity.com/test/type-finder-personality-test-new] assessment to find out your unique type!
 #### How to get started becoming a {PROFESSION}:
 - **Guidance:**
   - Suggest initial steps for exploration, such as internships, educational paths, entry-level jobs, or mentorship opportunities.
@@ -90,7 +90,7 @@ profession = st.text_input("Enter a profession", "")
 
 # Button to generate blog
 if st.button("Generate Blog"):
-    with st.spinner("The blog will take about one minute to write, please standby..."):
+    with st.spinner("The blog will take about 2 minutes to write, please standby..."):
         # Generate blog
         blog_post = generate_blog(profession)
         # Display blog post with markdown formatting
