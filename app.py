@@ -50,7 +50,7 @@ THE SPECIFIC CAREER TO WRITE ABOUT FOR THIS POST IS THE PROFESSION/CAREER OF {PR
 - **Detailed Analysis:**
   - Discuss how various TypeFinder types may find different aspects of the profession more suitable or challenging.
   - Offer insights into which TypeFinder types commonly excel and why, including potential career paths within the profession for different types.
-  - Link to Truity’s TypeFinder type descriptions for deeper exploration, do this when you first bring up any type like so: https://www.truity.com/blog/personality-type/<lowercase_type> (eg, lowercase_type = infp).
+  - Link to Truity’s TypeFinder type descriptions for deeper exploration, do this when you first bring up any type, EXAMPLE: (INTPs)[https://www.truity.com/blog/personality-type/intp] and (INTJs)[https://www.truity.com/blog/personality-type/intj] may be best suited.... 
 
 #### How to get started becoming a {PROFESSION}:
 - **Guidance:**
@@ -64,15 +64,17 @@ THE SPECIFIC CAREER TO WRITE ABOUT FOR THIS POST IS THE PROFESSION/CAREER OF {PR
   - Close with an empowering statement or a call-to-action to take the next step in exploring the profession.
   
 
-Be sure to also include all of the following links somewhere in the body of the text wherever it makes the most sense:
--Career personality profiler test: https://www.truity.com/test/career-personality-profiler-test 
-TypeFinder (MBTI) test: https://www.truity.com/test/type-finder-personality-test-new
-Big Five test: https://www.truity.com/test/big-five-personality-test 
+Be sure to also include some or all of the following links somewhere in the body of the text wherever it makes the most sense:
+-Career personality profiler test: https://www.truity.com/test/career-personality-profiler-test
+-Holland Code: https://www.truity.com/test/holland-code-career-test 
+-DISC: https://www.truity.com/test/disc-personality-test 
+-TypeFinder (MBTI) test: https://www.truity.com/test/type-finder-personality-test-new
+-Big Five test: https://www.truity.com/test/big-five-personality-test 
 
 FORMAT THE BLOG IN MARKDOWN!
 
-THE ENTIRE BLOG SHOULD BE APPROXIMATELY 1300 WORDS. THIS IS A CRITICAL REQUIREMENT.
-AVOID MAKING IT TOO SHORT AT ALL COSTS! YOU WILL NOT RUN OUT OF TOKENS AT THIS LENGTH!
+THE ENTIRE BLOG SHOULD BE APPROXIMATELY 1500 WORDS. THIS IS A CRITICAL REQUIREMENT.
+AVOID MAKING THE BLOG TOO SHORT! IT MUST BE 1500 WORDS! YOU WILL NOT RUN OUT OF TOKENS AT THIS LENGTH!
 """
 API = st.secrets['API']
 def generate_blog(profession):
@@ -82,14 +84,14 @@ def generate_blog(profession):
     return chat_chain.run(PROFESSION=profession)
 
 # Streamlit app
-st.title("Profession Blog Generator")
+st.title("Truity Profession x Personality Blog Generator")
 
 # User input
 profession = st.text_input("Enter a profession", "")
 
 # Button to generate blog
 if st.button("Generate Blog"):
-    with st.spinner("Please wait, this might take a minute..."):
+    with st.spinner("The blog will take about one minute to write, please standby..."):
         # Generate blog
         blog_post = generate_blog(profession)
         # Display blog post with markdown formatting
