@@ -43,14 +43,14 @@ THE SPECIFIC CAREER TO WRITE ABOUT FOR THIS POST IS THE PROFESSION/CAREER OF {PR
 - **Content Development:**
   - For each of the Big Five traits (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism), describe how they might manifest in successful professionals in the field.
   - Provide examples and professional scenarios where these traits would be advantageous.
-  - Link to the relevant Truity page for each trait.
+  - Link to the relevant Truity page for each trait like so: https://www.truity.com/blog/page/<lowercase_trait>-dimension-personality (if you list each trait, link at the initial listing of the trait, eg [Openness](https://www.truity.com/blog/page/openness-dimension-personality): ______).
 
 #### TypeFinder types of {PROFESSION}s:
 [SPECIAL NOTE: we call MBTI/Myers-Briggs types 'TypeFinder' types! Use the same acronyms and theory [eg, INTP], but call them TypeFinder types, NOT MBTI or Myers-Briggs]
 - **Detailed Analysis:**
   - Discuss how various TypeFinder types may find different aspects of the profession more suitable or challenging.
   - Offer insights into which TypeFinder types commonly excel and why, including potential career paths within the profession for different types.
-  - Link to Truity’s TypeFinder type descriptions for deeper exploration.
+  - Link to Truity’s TypeFinder type descriptions for deeper exploration, do this when you first bring up any type like so: https://www.truity.com/blog/personality-type/<lowercase_type> (eg, lowercase_type = infp).
 
 #### How to get started becoming a {PROFESSION}:
 - **Guidance:**
@@ -64,15 +64,15 @@ THE SPECIFIC CAREER TO WRITE ABOUT FOR THIS POST IS THE PROFESSION/CAREER OF {PR
   - Close with an empowering statement or a call-to-action to take the next step in exploring the profession.
   
 
-Be sure to include all of the following links somewhere in the body of the text wherever it makes the most sense:
+Be sure to also include all of the following links somewhere in the body of the text wherever it makes the most sense:
 -Career personality profiler test: https://www.truity.com/test/career-personality-profiler-test 
 TypeFinder (MBTI) test: https://www.truity.com/test/type-finder-personality-test-new
 Big Five test: https://www.truity.com/test/big-five-personality-test 
 
 FORMAT THE BLOG IN MARKDOWN!
 
-THE ENTIRE BLOG SHOULD BE APPROXIMATELY 1500 WORDS. THIS IS A CRITICAL REQUIREMENT.
-BE SURE NOT TO MAKE IT TOO SHORT! YOU WILL NOT RUN OUT OF TOKENS AT THIS LENGTH!
+THE ENTIRE BLOG SHOULD BE APPROXIMATELY 1300 WORDS. THIS IS A CRITICAL REQUIREMENT.
+AVOID MAKING IT TOO SHORT AT ALL COSTS! YOU WILL NOT RUN OUT OF TOKENS AT THIS LENGTH!
 """
 API = st.secrets['API']
 def generate_blog(profession):
