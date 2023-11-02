@@ -70,10 +70,14 @@ Be sure to also include all of the following links somewhere in the body of the 
 -Holland Code: https://www.truity.com/test/holland-code-career-test 
 -DISC: https://www.truity.com/test/disc-personality-test 
 
-FORMAT THE BLOG IN MARKDOWN!
+FINAL CRITICAL NOTES:
 
-THE ENTIRE BLOG SHOULD BE APPROXIMATELY 1500 WORDS. THIS IS A CRITICAL REQUIREMENT.
+1. PLEASE FORMAT THE BLOG IN MARKDOWN!
+
+2. THE ENTIRE BLOG SHOULD BE APPROXIMATELY 1500 WORDS. THIS IS A CRITICAL REQUIREMENT.
 AVOID MAKING THE BLOG TOO SHORT! IT MUST BE 1500 WORDS! YOU WILL NOT RUN OUT OF TOKENS AT THIS LENGTH!
+
+3. Do not end any section header with a colon (":"). They should be natural sounding headers appropriate to that section.
 """
 API = st.secrets['API']
 def generate_blog(profession):
