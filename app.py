@@ -42,6 +42,7 @@ THE SPECIFIC CAREER TO WRITE ABOUT FOR THIS POST IS THE PROFESSION/CAREER OF {PR
 #### Big Five personality traits of {PROFESSION}s:
 - **Content Development:**
   - For each of the Big Five traits (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism), describe how they might manifest in successful professionals in the field.
+  - Important: if a given trait doesn't matter much either way, simply explain the potential benefits/challenges for both high and low scorers!
   - Provide examples and professional scenarios where these traits would be advantageous.
   - Link to the relevant Truity page for each trait like so: https://www.truity.com/blog/page/<lowercase_trait>-dimension-personality (if you list each trait, link at the initial listing of the trait, eg [Openness](https://www.truity.com/blog/page/openness-dimension-personality): ______).
   - Also link to the Big Five assessment doing something like (doesn't have to be exact): You can take our (Big Five)[https://www.truity.com/test/big-five-personality-test] personality test to see how these traits play out in your life.
